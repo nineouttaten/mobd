@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="money">
+    <file>money.png</file>
+  </qresource>
+</RCC>
