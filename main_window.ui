@@ -26,9 +26,10 @@
    <string>Dialog</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="icons8----100"/>
+   <iconset theme="icons8----100">
+    <normaloff>.</normaloff>.</iconset>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>0</x>
@@ -58,7 +59,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Выдать</string>
+       <string>Выдать кредит</string>
       </property>
      </widget>
     </item>
@@ -86,47 +87,61 @@
       </property>
      </widget>
     </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>20</y>
-     <width>287</width>
-     <height>248</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="label_name">
-      <property name="font">
-       <font>
-        <pointsize>25</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>МФО Деньги-грязь</string>
-      </property>
-     </widget>
-    </item>
-    <item alignment="Qt::AlignHCenter">
-     <widget class="QLabel" name="label">
+     <widget class="QPushButton" name="pushButton">
       <property name="maximumSize">
        <size>
-        <width>200</width>
-        <height>200</height>
+        <width>167</width>
+        <height>100</height>
        </size>
       </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap resource="money.qrc">:/money/money.png</pixmap>
+       <string>Список должников
+для коллекторов</string>
       </property>
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>110</y>
+     <width>200</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="money.qrc">:/money/money.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_name">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>-90</y>
+     <width>501</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>МФО «‎Купи не Копи»‎</string>
+   </property>
   </widget>
  </widget>
  <resources>

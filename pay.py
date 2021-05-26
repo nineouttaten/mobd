@@ -20,5 +20,6 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     w = Pay_Ui()
+    w.setWindowTitle('Внесение платежа по кредиту МФО «‎Купи не Копи»‎')
     w.show()  # show window
     sys.exit(app.exec_())

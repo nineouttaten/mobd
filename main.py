@@ -24,7 +24,7 @@ class main_Ui(QtWidgets.QDialog, Form):
         self.close()
 
     def initUI(self):
-        self.setWindowTitle('МФО Деньги-грязь')
+        self.setWindowTitle('МФО «‎Купи не Копи»‎')
         self.setWindowIcon(QIcon('icons8----100.png'))
         self.show()
 
